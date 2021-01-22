@@ -1,6 +1,4 @@
 
-Тестовое задание
-
 REST API task Proxy-Server Spring boot with Docker and nginx
 
 1) Внутри docker запустить nginx сервис с включенным модулем http_stub_status_module. Сконфигурировать location, возвращающий статус nginx. Должно быть похоже на:
