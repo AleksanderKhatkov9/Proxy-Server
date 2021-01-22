@@ -1,6 +1,8 @@
 
 Тестовое задание
 
+REST API task Proxy-Server Spring boot with Docker and nginx
+
 1) Внутри docker запустить nginx сервис с включенным модулем http_stub_status_module. Сконфигурировать location, возвращающий статус nginx. Должно быть похоже на:
 $ curl http://{nginx_host}/{configured_location}
 Active connections: 2
@@ -24,14 +26,13 @@ Reading: 0 Writing: 1 Waiting: 1
 2) приложение (в том числе собранный nginx) должно запускаться на докере (требуется написать Dockerfile и docker-compose.yml)
 3) Пайплайн на gitlab должен запускать тесты на api proxy service, собирать и пушить docker image. 
 
-Рекомендуемый стек:
+Используемые технологии:
 1) java 11(14)
 2) spring boot 2
 3) nginx
 3) gradle
 
-Результат
-
+Результат: 
 {
     "activeConnections": 1,
     "accepts": 9,
