@@ -1,0 +1,10 @@
+version: '3'
+services:
+  nginx:
+    image: nginx:1.18
+    restart: always
+    ports:
+      - 8080:80
+    volumes:
+#    - ./:/etc/nginx/nginx.conf
+      -./RestApi/src/Docker:nginx.conf
