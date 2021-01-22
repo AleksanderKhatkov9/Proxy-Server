@@ -27,7 +27,7 @@ Reading: 0 Writing: 1 Waiting: 1
 3) Пайплайн на gitlab должен запускать тесты на api proxy service, собирать и пушить docker image. 
 
 Используемые технологии:
-1) java 11(14)
+1) java 11
 2) spring boot 2
 3) nginx
 3) gradle
