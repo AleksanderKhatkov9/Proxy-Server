@@ -29,3 +29,12 @@ Reading: 0 Writing: 1 Waiting: 1
 2) spring boot 2
 3) nginx
 3) gradle
+
+Результат
+
+{
+    "activeConnections": 1,
+    "accepts": 9,
+    "handled": 9,
+    "requests": 10
+}
